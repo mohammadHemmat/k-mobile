@@ -433,12 +433,17 @@ border-radius: 5px;
   justify-self: center;
   align-items: center;
   border-bottom: 1px solid gray;
+  border-collapse: collapse;
   padding-bottom: 1rem;
   margin-top: 4rem;
+  margin-right: .5rem;
+  margin-left: .5rem;
 }
 
 .profile__lists2 {
   display: flex;
+  margin-right: .5rem;
+  margin-left: .5rem;
   align-self: center;
   justify-self: center;
   align-items: center;
