@@ -94,7 +94,7 @@ html, body {
 
 .enter--container {
     display: grid;
-    grid-template-columns: 1fr 100px 1fr;
+    grid-template-columns: auto auto;
 }
 
 .enter__text {
@@ -102,6 +102,18 @@ html, body {
     color: rgb(0, 0, 189);
     text-align: center;
     padding-top: .6rem;
+}
+
+.enter__btn--changes {
+  margin-top: .5rem;
+  background: #000;
+  width: 5.5rem;
+  height: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
 }
 
 .enter__btn {
@@ -119,7 +131,6 @@ html, body {
 
 .enter__btn--text {
     margin: 0;
-    /* color: #fff; */
 }
 
 .enter__icon-out {
@@ -356,7 +367,126 @@ html, body {
 }
 
 
+/* profile */
 
+.profile--container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.profile__text {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.profile__btn--changes {
+background: #000;
+width: 5.5rem;
+height: 2rem;
+justify-content: center;
+align-self: center;
+justify-self: center;
+align-items: center;
+border: none;
+border-radius: 5px;
+}
+
+.profile__text--middle {
+  text-align: center;
+  color: rgb(7, 7, 207);
+  font-weight: 500;
+}
+
+.profile__btn {
+  display: flex;
+  background: #000;
+  width: 5.5rem;
+  height: 2rem;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+  border-radius: 5px;
+  grid-column-start: 3;
+  outline: none;
+  border: none;
+}
+
+.profile__btn--text {
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+
+.profile__out--icon {
+  margin-right: .5rem;
+  width: 25px;
+  fill: rgb(65, 110, 255);
+}
+
+.profile__lists{
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 1rem;
+  margin-top: 4rem;
+}
+
+.profile__lists2 {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 22.27rem;
+}
+
+.profile__list_out--icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  fill: red;
+}
+
+.profile__list_right--icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  fill: rgb(2, 223, 2);
+}
+
+.calendar-check {
+  margin-right: 1rem;
+  width: 1rem;
+  height: 2rem;
+  fill: darkblue;
+}
+
+.calendar {
+  margin-right: 1rem;
+  width: 1rem;
+  height: 2rem;
+  fill: darkblue;
+}
+
+.profile__date {
+  padding-right: .3rem;
+  font-size: 11px;
+  color: #525252;
+}
+
+.profile__time {
+  padding-right: .3rem;
+  font-size: 11px;
+  color: #525252;
+}
 
 /* animation of footer */
 a {
